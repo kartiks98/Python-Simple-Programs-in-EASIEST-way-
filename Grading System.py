@@ -8,7 +8,7 @@ e = int(input())
 
 percentage = ((a+b+c+d+e)/250)*100
 
-if a < 50 or b < 50 or c < 50 or d < 50 or e < 50:
+if a > 50 or b > 50 or c > 50 or d > 50 or e > 50:
     print("Please enter valid marks")
 
 elif percentage == 100:
